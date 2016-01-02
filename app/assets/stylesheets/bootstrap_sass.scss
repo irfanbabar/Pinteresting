@@ -3,8 +3,17 @@
 // customizing with sass variable from bootstrap website "customize" link
 
 $body-bg: #ecf0f1;
-$navbar-inverse-bg: #27ae60;
-$navbar-inverse-link-color: #ecf0f1;
-$jumbotron-bg: #bdc3c7;
+$navbar-height: 45px;
+$navbar-default-bg: white;
+$navbar-default-link-color: #c0392b;
+$jumbotron-bg: white;
 
 @import "bootstrap";
+
+.center {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
